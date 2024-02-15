@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: 1s;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+    color: rgb(255 255 255);
+}
+
+.navbar {
+    background-color: rgb(50, 50, 50);
+    margin-bottom: 2px;
+}
+
+.navbar-brand {
+    color: rgb(255 255 255);
+}
+
+.navbar-toggler {
+    color: rgb(255 255 255);
+}
+
+.navbar-toggler-icon {
+    border-color: rgb(255 255 255);
+}
+
+.navbar-nav {
+    color: rgb(255 255 255);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white var(--bs-navbar-disabled-color);
+}
+
+.nav-link {
+    color: rgb(255 255 255);
+}
+
+.card-img-top {
+    padding: 0px 20px;
+}
+
+.sessao_cards {
+    margin: 50px 10px;
+    color: rgb(255, 165, 0);
+}
+
+.grupo_cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-body {
+    background-color: rgb(80, 80, 80);
+    color: rgb(255 255 255);
+}
+
+.btn.btn-primary {
+    background-color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+}
