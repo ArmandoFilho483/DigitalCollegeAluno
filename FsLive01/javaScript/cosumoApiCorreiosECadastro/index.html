@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="wrap">
+
+    <div class="imagem">
+        <img src="imagem.svg" alt="imagem de uma mulher com um ícone de mapa.">
+    </div>
+    <div class="cont-form">
+        <h2 class="titulo-form">Preencha seu endereço</h2>
+        <div class="linha"><hr></div>
+        <form class="form" action="form">
+                <label class="nomes">CEP</label>
+                <input type="text" class="dados" placeholder="Ex.: 00000-000" id="cep" onblur="obtemEndereco()">
+                <label class="nomes">Logradouro</label>
+                <input type="text" class="dados" placeholder="Ex.: Rua X, Travessa Y, Av Z" id="logradouro">
+                <label class="nomes">Número</label>
+                <input type="text" class="dados" placeholder="Ex.: 123" id="numero">
+                <label class="nomes">Bairro</label>
+                <input type="text" class="dados" placeholder="Ex.: Quintino Cunha" id="bairro">
+                <label class="nomes">Cidade</label>
+                <input type="text" class="dados" placeholder="Ex.: FortalCity" id="cidade">
+                <label class="nomes">UF</label>
+                <input type="text" class="dados" placeholder="Ex.: CE" id="uf">
+                <button class="botao" id="botao">
+                    PRONTO!
+                </button>
+        </form>
+    </div>
+</section>
+<script src="eventos.js"></script>
+</body>
+</html>

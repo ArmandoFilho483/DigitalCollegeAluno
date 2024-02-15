@@ -1,0 +1,26 @@
+.header-wrap {
+    padding: 8px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+.menu .menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu .menu-item {
+    padding: 8px;
+    margin: 5px;
+}
+
+.menu .menu-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

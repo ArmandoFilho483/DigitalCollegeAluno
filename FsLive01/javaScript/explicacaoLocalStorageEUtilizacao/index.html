@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage</title>
+</head>
+<body>
+    <h1>Minha página</h1>
+    <p>Usuário logado: </p>
+    <div id="usuario">Nenhum</div>
+    <hr>
+    <input id="input-usuario" type="text">
+    <button id="btn-logar">Logar</button>
+    
+
+    <script src="script.js"></script>
+    <script>
+        let usuario = getElementById('usuario');
+        let inputUsuario = getElementById('input-usuario');
+        let btnLogar = getElementById('btn-logar');
+
+        btnLogar.addEventListener('click', () => {
+            localStorage.setItem('usuario', inputUsuario.value);
+            usuario.innerText = localStorage.getItem('usuario');
+        });
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <script>
+        var a = parseInt(prompt("Digite um número: "));
+        var b = parseInt(prompt("Digite um segundo número: "));
+        var operador = prompt("Essas são as operações possíveis(+, -, *, /): ")
+        var x;
+
+        if (operador == "+") {
+            x = a + b
+            alert("O valor da soma é: " + x);
+        } else if (operador == "-") {
+            x = a - b
+            alert("O valor da subtração é: " + x);
+        }  else if (operador == "*") {
+            x = a * b
+            alert("O valor da multiplicação é: " + x);
+        }  else if (operador == "/") {
+            x = a / b
+            alert("O valor da divisão é: " + x);
+        } else {
+            alert("Você não digitou algo corretamente.");
+        }
+        
+        
+    </script>
+</body>
+</html>
